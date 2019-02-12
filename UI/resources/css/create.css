@@ -1,0 +1,112 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/download.jpeg);
+  height: 100vh;
+  display: flex;
+}
+
+.page-wrapper {
+  background-color: whitesmoke;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.rates {
+  order: -1;
+  margin: 0 80px;
+  margin: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.size > p,
+.price > p {
+  padding-top: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.rates-details {
+  margin-top: 20px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-box,
+.request-box {
+  margin: auto;
+  background-color: #fff;
+  min-height: 250px;
+  width: 350px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #edd;
+}
+
+.request-box {
+  margin: 0;
+  height: 500px;
+  width: 700px;
+}
+
+.brand {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.brand a {
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  border: solid 1px #ccc;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+input:focus,
+input:active,
+input:hover {
+  outline: none;
+  border: solid 1px #999;
+}
+input[type="button"] {
+  background-color: rgb(0, 255, 0);
+  color: #000;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(56, 255, 30);
+}
+.privacy {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: #000;
+}
+.privacy h4 {
+  color: #fff;
+}
+.terms-conditions p {
+  color: #fff;
+  font-size: 14px;
+}
+.copyright {
+  color: #fff;
+  font-size: 14px;
+}
