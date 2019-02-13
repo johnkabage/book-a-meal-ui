@@ -45,7 +45,6 @@ input:hover {
 }
 input[type="button"] {
   background-color: #00ff00;
-  /* color: rgb(0, 0, 0); */
   cursor: pointer;
 }
 
@@ -55,4 +54,8 @@ a {
 }
 .login {
   font-size: 12px;
+}
+.btn {
+  padding: 8px 25px;
+  border-radius: 30px;
 }
