@@ -110,3 +110,7 @@ a {
   color: #fff;
   font-size: 14px;
 }
+.btn {
+  padding: 10px 130px;
+  border-radius: 30px;
+}
