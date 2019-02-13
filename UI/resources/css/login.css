@@ -56,3 +56,7 @@ a {
 .login {
   font-size: 12px;
 }
+.btn {
+  padding: 8px 25px;
+  border-radius: 30px;
+}
