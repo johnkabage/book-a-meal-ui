@@ -53,3 +53,8 @@ a {
   text-decoration: none;
   color: rgb(56, 255, 30);
 }
+.btn {
+  padding: 8px 25px;
+  color: #000;
+  border-radius: 30px;
+}
